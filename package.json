@@ -1,0 +1,30 @@
+{
+  "name": "language-switcher-component",
+  "version": "1.0.0",
+  "description": "Language Switcher - Component template for Magnolia CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/topherzee/language-switcher-component.git"
+  },
+  "keywords": [
+    "magnolia-light-module",
+    "magnolia",
+    "light-module",
+    "template",
+    "component",
+    "cms",
+    "language",
+    "language",
+    "switcher"
+  ],
+  "author": "Christopher Zimmermann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/topherzee/language-switcher-component/issues"
+  },
+  "homepage": "https://github.com/topherzee/language-switcher-component#readme"
+}
