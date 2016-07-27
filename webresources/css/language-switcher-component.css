@@ -1,0 +1,24 @@
+
+.languageSwitcher ul {
+    margin: 0;
+    padding: 0;
+}
+.languageSwitcher ul li {
+    display: inline;
+    list-style: outside none none;
+    padding: 0;
+}
+.languageSwitcher, .languageSwitcher a {
+    color: #777;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.languageSwitcher li.active span, .languageSwitcher li a:hover {
+    color: #000;
+}
+.languageSwitcher li::after {
+    content: " |";
+}
+.languageSwitcher li:last-child::after {
+    content: "";
+}
