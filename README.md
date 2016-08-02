@@ -27,6 +27,15 @@ https://docs.magnolia-cms.com
 This directory is a 'light module'.
 https://documentation.magnolia-cms.com/display/DOCS/Light+development+in+Magnolia
 
+## Contribute to the Magnolia component ecosystem
+It's easy to create components for Magnolia and share them on github and npm. I invite you to do so and join the community. Let's stop wasting time by developing the same thing again and again, rather let's help each other out by sharing our work and create a rich library of components.
+
+Just add magnolia-light-module and magnolia-component as keywords to the package.json to make them easy to find and use.
+
+## Notes
+* This is not officially supported Magnolia CMS code. This is a community contribution.
+* Your input is welcome! Just file a ticket, or create a pull request on github.
+
 ## License
 
 MIT
