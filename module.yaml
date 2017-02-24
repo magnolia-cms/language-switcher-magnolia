@@ -1,5 +1,5 @@
-version: 1.0.2
+version: 1.0.3
 displayName: Language Switcher Component
 dependencies:
-  mtk:
-    version: 0.11.0/*
+  core:
+    version: 5.4.7/*

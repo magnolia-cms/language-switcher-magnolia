@@ -23,7 +23,7 @@
         [#else]
 
         <ul>
-          [#-- Use "compress" to put "li" and "a" on one line to prevent white spaces from interfering with layout. --]
+          [#-- Uses "compress" to put "li" and "a" on one line to prevent white spaces from interfering with layout. --]
           [#list languages as lang]
               [#assign current = cmsfn.isCurrentLocale(lang)]
               <li[#if current] class="active"[/#if]>[@compress single_line=true]

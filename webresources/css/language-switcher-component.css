@@ -9,12 +9,11 @@
     padding: 0;
 }
 .languageSwitcher, .languageSwitcher a {
-    color: #777;
     text-decoration: none;
     text-transform: uppercase;
 }
 .languageSwitcher li.active span, .languageSwitcher li a:hover {
-    color: #000;
+    /*color: #000;*/
 }
 .languageSwitcher li::after {
     content: " |";
