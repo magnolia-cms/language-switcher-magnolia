@@ -284,7 +284,7 @@
         <sv:value>fab8b955-6eff-4c2c-9489-b005074d2f72</sv:value>
       </sv:property>
       <sv:property sv:name="editHTML" sv:type="String">
-        <sv:value>  &lt;link href=".resources/language-switcher-component/webresources/css/language-switcher-component.css" rel="stylesheet"&gt;
+        <sv:value>  &lt;link href=".resources/language-switcher-component/webresources/language-switcher-component.css" rel="stylesheet"&gt;
 </sv:value>
       </sv:property>
       <sv:property sv:name="jcr:createdBy" sv:type="String">
