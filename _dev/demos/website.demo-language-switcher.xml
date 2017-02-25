@@ -4,7 +4,7 @@
     <sv:value>mgnl:page</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-    <sv:value>mix:lockable</sv:value>
+    <sv:value>mgnl:hasVersion</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>a3124673-38ca-47a0-85f0-2a66de4aee0d</sv:value>
@@ -15,14 +15,26 @@
   <sv:property sv:name="jcr:createdBy" sv:type="String">
     <sv:value>admin</sv:value>
   </sv:property>
+  <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:comment" sv:type="String">
+    <sv:value/>
+  </sv:property>
   <sv:property sv:name="mgnl:created" sv:type="Date">
     <sv:value>2016-07-27T15:13:17.346+02:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:createdBy" sv:type="String">
     <sv:value>superuser</sv:value>
   </sv:property>
+  <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+    <sv:value>2017-02-25T17:14:17.681+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
   <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-    <sv:value>2016-07-27T17:22:44.783+02:00</sv:value>
+    <sv:value>2017-02-25T17:14:10.244+01:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
     <sv:value>superuser</sv:value>
@@ -31,14 +43,11 @@
     <sv:value>mtk:pages/basic</sv:value>
   </sv:property>
   <sv:property sv:name="title" sv:type="String">
-    <sv:value>Demo - language-switcher-component</sv:value>
+    <sv:value>Demo - Language Switcher</sv:value>
   </sv:property>
   <sv:node sv:name="main">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:area</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:lockable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>638415bd-df4f-4925-9bef-beddd9cd087e</sv:value>
@@ -46,14 +55,23 @@
     <sv:property sv:name="jcr:createdBy" sv:type="String">
       <sv:value>admin</sv:value>
     </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
     <sv:property sv:name="mgnl:created" sv:type="Date">
       <sv:value>2016-07-27T15:13:20.354+02:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:createdBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2017-02-25T17:14:17.682+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2016-07-27T17:22:44.783+02:00</sv:value>
+      <sv:value>2017-02-25T17:12:43.608+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -77,10 +95,19 @@
       <sv:property sv:name="jcr:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
       <sv:property sv:name="mgnl:created" sv:type="Date">
         <sv:value>2016-07-27T17:18:27.491+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2017-02-25T17:14:17.682+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
@@ -106,10 +133,19 @@
       <sv:property sv:name="jcr:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
       <sv:property sv:name="mgnl:created" sv:type="Date">
         <sv:value>2016-07-27T15:13:40.895+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2017-02-25T17:14:17.682+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
@@ -119,7 +155,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:template" sv:type="String">
-        <sv:value>language-switcher-component:components/languageSwitcher</sv:value>
+        <sv:value>language-switcher-magnolia:components/languageSwitcher</sv:value>
       </sv:property>
       <sv:property sv:name="option" sv:type="String">
         <sv:value>a</sv:value>
@@ -150,10 +186,19 @@
       <sv:property sv:name="jcr:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
       <sv:property sv:name="mgnl:created" sv:type="Date">
         <sv:value>2016-07-27T17:18:49.801+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2017-02-25T17:14:17.682+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
@@ -179,10 +224,19 @@
       <sv:property sv:name="jcr:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
       <sv:property sv:name="mgnl:created" sv:type="Date">
         <sv:value>2016-07-27T17:19:47.331+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2017-02-25T17:14:17.682+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
@@ -192,7 +246,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:template" sv:type="String">
-        <sv:value>language-switcher-component:components/languageSwitcher</sv:value>
+        <sv:value>language-switcher-magnolia:components/languageSwitcher</sv:value>
       </sv:property>
       <sv:property sv:name="position" sv:type="String">
         <sv:value>bottom</sv:value>
@@ -220,10 +274,19 @@
       <sv:property sv:name="jcr:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
       <sv:property sv:name="mgnl:created" sv:type="Date">
         <sv:value>2016-07-27T17:20:38.590+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2017-02-25T17:14:17.682+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
@@ -254,10 +317,19 @@
       <sv:property sv:name="jcr:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
       <sv:property sv:name="mgnl:created" sv:type="Date">
         <sv:value>2016-07-27T17:20:49.689+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2017-02-25T17:14:17.683+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
@@ -267,7 +339,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:template" sv:type="String">
-        <sv:value>language-switcher-component:components/languageSwitcher</sv:value>
+        <sv:value>language-switcher-magnolia:components/languageSwitcher</sv:value>
       </sv:property>
       <sv:property sv:name="position" sv:type="String">
         <sv:value>bottom</sv:value>
@@ -284,11 +356,20 @@
         <sv:value>fab8b955-6eff-4c2c-9489-b005074d2f72</sv:value>
       </sv:property>
       <sv:property sv:name="editHTML" sv:type="String">
-        <sv:value>  &lt;link href=".resources/language-switcher-component/webresources/language-switcher-component.css" rel="stylesheet"&gt;
+        <sv:value>&lt;!--
+Note: This page includes web resources with an HTML component only
+for easy demo purposes.
+Best practice is to use resfn, theme, or include in page template.
+--&gt;
+
+&lt;link href=".resources/language-switcher-magnolia/webresources/language-switcher-magnolia.css" rel="stylesheet"&gt;
 </sv:value>
       </sv:property>
       <sv:property sv:name="jcr:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>true</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:created" sv:type="Date">
         <sv:value>2016-07-27T17:21:35.177+02:00</sv:value>
@@ -296,8 +377,14 @@
       <sv:property sv:name="mgnl:createdBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2017-02-25T17:14:17.683+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2016-07-27T17:22:44.783+02:00</sv:value>
+        <sv:value>2017-02-25T17:12:43.608+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -314,19 +401,25 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:area</sv:value>
     </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:lockable</sv:value>
-    </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>053da28e-e7a5-414b-8c78-f5511000b313</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:createdBy" sv:type="String">
       <sv:value>admin</sv:value>
     </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
     <sv:property sv:name="mgnl:created" sv:type="Date">
       <sv:value>2016-07-27T15:13:20.373+02:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2017-02-25T17:14:17.683+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">

@@ -1,6 +1,6 @@
 renderType: freemarker
-templateScript: /language-switcher-component/templates/components/languageSwitcher.ftl
-dialog: language-switcher-component:components/languageSwitcher
+templateScript: /language-switcher-magnolia/templates/components/languageSwitcher.ftl
+dialog: language-switcher-magnolia:components/languageSwitcher
 
 parameters:
   switcherTypeDefault: list

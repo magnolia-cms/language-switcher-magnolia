@@ -1,5 +1,5 @@
-version: 1.0.4
-displayName: Language Switcher Component
+version: 1.0.5
+displayName: Language Switcher
 dependencies:
   core:
     version: 5.4.7/*
